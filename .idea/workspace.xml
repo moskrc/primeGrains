@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c674a613-2a70-45ea-b0e9-f1698167870f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/clients/clients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/order/order.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DDD Vue/.idea/DDD Vue.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DDD Vue/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DDD Vue/.idea/modules.xml" beforeDir="false" />
@@ -37,6 +39,10 @@
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/components/OurProducts.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/images/design2.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../_DDD Vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contract24" beforeDir="false" afterPath="$PROJECT_DIR$/../../contract24" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ddd-vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firststars_old" beforeDir="false" afterPath="$PROJECT_DIR$/../../firststars_old" afterDir="false" />
@@ -51,8 +57,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gsUcqzzvFJuAtIJZqM7b2AYzB2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,10 +77,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/styles/blocks/order" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +103,7 @@
       <workItem from="1598935296348" duration="510000" />
       <workItem from="1598936592373" duration="525000" />
       <workItem from="1599018918350" duration="1318000" />
+      <workItem from="1599020957288" duration="28424000" />
     </task>
     <servers />
   </component>

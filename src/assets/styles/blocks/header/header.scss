@@ -1,0 +1,71 @@
+.header {
+    background-image: url("../../../img/main.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    @media screen and (max-height: 400px) {
+        height: 100%;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        //padding: 12rem 9rem;
+        @media screen and (max-width: 1200px) {
+            //padding: 10rem 4rem;
+        }
+        @media screen and (max-width: 992px) {
+            //padding: 8rem 2rem;
+        }
+        @media screen and (max-width: 768px) {
+            //padding: 7rem 2rem;
+        }
+        @media screen and (max-width: 440px) {
+            //padding: 5rem 1rem;
+        }
+    }
+    &__title {
+        color: $color-base;
+        font-style:  normal;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+        //margin: 2rem 0 0;
+        font-size: 5.25rem;
+        line-height: 5.75rem;
+        letter-spacing: 0.2rem;
+        @media screen and (max-width: 768px) {
+            margin: 0;
+            font-size: 3.5rem;
+            line-height: 4rem;
+        }
+        @media screen and (max-width: 440px) {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            letter-spacing: 0.02rem;
+        }
+    }
+    &__subtitle {
+        color: $color-base;
+        font-style:  normal;
+        font-weight: 500;
+        font-size: 2rem;
+        margin: 0;
+        //margin-top: 1rem;
+        @media screen and (max-width: 440px) {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+    &__btn {
+        color: $color-lightGold;
+        background-color: $color-base;
+        margin-top: 10rem;
+        transition: all .5s ease;
+        &:hover {
+            color: $color-gold;
+            transition: opacity .4s;
+            //opacity: .7;
+        }
+    }
+}

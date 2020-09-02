@@ -1,0 +1,18 @@
+.order {
+  background-color: $color-grey;
+  &__title {
+    color: $color-gold;
+  }
+  &__subtitle {
+    color: $color-base;
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+    &:hover {
+      transform: scale(1.1);
+      background-position: center;
+    }
+  }
+}
