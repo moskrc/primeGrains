@@ -1,6 +1,4 @@
 body {
-  //background-color: $color-white;
-  //color: $color-base;
   font-family: 'HelveticaNeueCyr';
 }
 
@@ -30,6 +28,21 @@ body {
     font-size: 1.125rem;
     line-height: 1.625rem;
     letter-spacing: 0.07rem;
+    @media screen and (max-width: 1200px) {
+
+    }
+    @media screen and (max-width: 992px) {
+
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    @media screen and (max-width: 576px) {
+    }
+    @media screen and (max-width: 440px) {
+
+    }
   }
   &__subtitle {
     font-weight: 500;
@@ -38,6 +51,24 @@ body {
     font-size: 2.5rem;
     line-height: 3rem;
     letter-spacing: 0.08rem;
+    @media screen and (max-width: 1200px) {
+      font-size: 2.25rem;
+      line-height: 2.75rem;
+    }
+    @media screen and (max-width: 992px) {
+      font-size: 2.125rem;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    @media screen and (max-width: 576px) {
+      font-size: 1.75rem;
+      line-height: 2rem;
+    }
+    @media screen and (max-width: 440px) {
+      font-size: 1.5rem;
+    }
   }
   &__text {
     margin: 0;
@@ -51,6 +82,48 @@ body {
   }
 }
 
+ol {
+  padding: 0;
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+li {
+  counter-increment: my-awesome-counter;
+  &::before {
+    position: absolute;
+    content: counter(my-awesome-counter);
+    counter-increment: num;
+    display: inline-block;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    background-color: $color-lightGold;
+    color: $color-gold;
+    margin-right: 1rem;
+  }
+}
+
+.list{
+  &__title {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+    text-align: left;
+  }
+  &__item {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    &_bold {
+    }
+  }
+  &__text {
+    margin: 1rem 3rem 4rem;
+  }
+}
+
 .wrapper {
   max-width: 1140px;
   width: 100%;
@@ -58,6 +131,10 @@ body {
   &_row {
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 576px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   &_column {
     display: flex;
@@ -65,11 +142,16 @@ body {
   }
   &_col-3 {
     width: 50%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
   }
   &_col-4 {
     width: 66%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
   }
-
 }
 
 a:hover {

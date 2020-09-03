@@ -1,6 +1,5 @@
 .contact {
     background-color: $color-lightBrown;
-    //background-image: url("../../../img/main.jpg");
     &__title {
         color: $color-gold;
     }
@@ -59,7 +58,6 @@
         transition: all .5s ease;
         &:hover {
             color: $color-lightGold;
-            //background-color: $color-base;
             transition: opacity .4s;
         }
     }
