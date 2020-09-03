@@ -92,7 +92,7 @@ ol {
   list-style: none;
   counter-reset: my-awesome-counter;
 }
-li {
+ol li {
   counter-increment: my-awesome-counter;
   &::before {
     position: absolute;

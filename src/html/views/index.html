@@ -4,36 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Пробоотборники для зерна></title>
 </head>
 <body class=page">
-<!--    <nav class="navbar navbar_fixed-top">-->
-<!--        <div class="wrapper">-->
-<!--            <div class="wrapper_row">-->
-<!--&lt;!&ndash;                <img class="logo" src="" alt="">&ndash;&gt;-->
-<!--                <ul class="menu wrapper_row">-->
-<!--                    <li class="menu__item">-->
-<!--                        <a href="" class="menu__link">-->
-
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="menu__item">-->
-<!--                        <a href="" class="menu__link">-->
-
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="menu__item">-->
-<!--                        <a href="" class="menu__link">-->
-
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </nav>-->
+    <nav class="navbar navbar_fixed-top">
+        <div class="wrapper">
+            <div class="navbar__wrapper">
+                <div class="wrapper_col">
+                    <a href="#">
+                        <img src="../../assets/img/logo.svg" alt="logo" class="logo">
+                    </a>
+                </div>
+<!--                <div class="wrapper_col menu__wrapper">-->
+                    <ul class="menu">
+                        <li>
+                            <a href="#about" class="menu_link">
+                                Продукция
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#order" class="menu_link">
+                                Заказать
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="menu_link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+<!--                </div>-->
+                <div class="wrapper_col">
+                        <a class="phone menu_phone" href="tel:+79066800544"> 8 906 680 05 44</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <header class="header">
         <div class="wrapper">
-            <div class="wrapper_column header__wrapper">
+            <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_column header__wrapper">
                 <h1 class="header__title">
                     Пробоотборник для контроля качества зерна
                 </h1>
@@ -44,10 +54,10 @@
             </div>
         </div>
     </header>
-    <section class="section about">
+    <section id="about" class="section about">
         <div class="wrapper">
             <div class="about__wrapper">
-                <div class="wrapper_column wrapper_col-3">
+                <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_column wrapper_col-3">
                     <h2 class="section__title about__title">
                         Что мы производим
                     </h2>
@@ -58,10 +68,10 @@
                         Пробоотборники просты в использовании и обслуживании. Имеют малый вес и прочную конструкцию. Являются универсальным и недорогим средством отбора проб зерна.
                     </p>
                 </div>
-                <div class="wrapper_row margin_top">
+                <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_row margin_top">
                     <img src="../../assets/img/about.png" alt="products" class="order__img margin_top">
                 </div>
-                <div class="wrapper_row margin_top">
+                <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_row margin_top">
                     <div class="wrapper_column wrapper_col-3">
                         <span class="list__title">Устройство прибора</span>
                         <ol>
@@ -117,27 +127,53 @@
                         </ol>
                     </div>
                 </div>
-                <div class="wrapper_column">
+                <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_column margin_top">
                     <span class="list__title">Технические данные</span>
                     <div class="details">
-                        <div class="details__row details__row_head">
-                            <div class="details__head_item">Модель</div>
-                            <div class="details__head_item">Длина</div>
-                            <div class="details__head_item">Глубина отбора пробы</div>
-                            <div class="details__head_item">Диаметр</div>
-                            <div class="details__head_item">Диаметр внутренней полости</div>
-                            <div class="details__head_item">Кол.отверстий отбора</div>
-                        </div>
-                        <div class="details__row"></div>
+                        <div class="details__row details__row_header">Модель</div>
+                        <div class="details__row details__row_header">Длина</div>
+                        <div class="details__row details__row_header">Глубина отбора пробы</div>
+                        <div class="details__row details__row_header">Диаметр</div>
+                        <div class="details__row details__row_header">Диаметр внутренней полости</div>
+                        <div class="details__row details__row_header">Кол.отверстий отбора</div>
+                        <div class="details__row details__row-w">PG361</div>
+                        <div class="details__row details__row-w">1.0 м</div>
+                        <div class="details__row details__row-w">0.80 м</div>
+                        <div class="details__row details__row-w">35 мм</div>
+                        <div class="details__row details__row-w">26 мм</div>
+                        <div class="details__row details__row-w">4 шт</div>
+                        <div class="details__row details__row-g">PG362</div>
+                        <div class="details__row details__row-g">1.4 м</div>
+                        <div class="details__row details__row-g">1.2 м</div>
+                        <div class="details__row details__row-g">35 мм</div>
+                        <div class="details__row details__row-g">26 мм</div>
+                        <div class="details__row details__row-g">6 шт</div>
+
+<!--                        <div class="r1-c5">Диаметр внутренней полости</div>-->
+<!--                        <div class="r1-c6">Кол.отверстий отбора</div>-->
+<!--                        <div class="r2-c1">PG361</div>-->
+<!--                        <div class="r3-c1">PG362</div>-->
+<!--                        <div class="r4-c1">PG363</div>-->
+<!--                        <div class="r5-c1">PG364</div>-->
+<!--                        <div class="r6-c1">PG365</div>-->
+<!--                        <div class="r7-c1">PG366</div>-->
+<!--                        <div class="details__row details__row_head">-->
+<!--                            <div class="details__head_item">Модель</div>-->
+<!--                            <div class="details__head_item">Длина</div>-->
+<!--                            <div class="details__head_item">Глубина отбора пробы</div>-->
+<!--                            <div class="details__head_item">Диаметр</div>-->
+<!--                            <div class="details__head_item">Диаметр внутренней полости</div>-->
+<!--                            <div class="details__head_item">Кол.отверстий отбора</div>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section order">
+    <section id="order" class="section order">
         <div class="wrapper">
             <div class="order__wrapper">
-                <div class="wrapper_row">
+                <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_row">
                     <div class="wrapper_column wrapper_col-3">
                         <h2 class="section__title order__title">
                             Сделать заказ
@@ -149,9 +185,9 @@
                             Вы так же можете сделать заказ  по электронной почте <span class="section__text_decor">admin@mail.com</span> или позвонить по телефону
                             <span class="section__text_decor">+7 906 680 05 44</span>
                         </p>
-                        <img src="../../assets/img/order.png" alt="products" class="order__img margin_top">
+                        <img data-aos = "fade-up" data-aos-duration = "1500" src="../../assets/img/order.png" alt="products" class="order__img margin_top">
                     </div>
-                    <div class="wrapper_column wrapper_col-3 margin_left margin_top">
+                    <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_column wrapper_col-3 margin_left margin_top">
                         <form name="form" class="form">
                             <div class="form__input-container">
                                 <label class="form__label" for="name">Ваше имя*</label>
@@ -181,7 +217,7 @@
     <section class="section clients">
         <div class="wrapper">
             <div class="clients__wrapper">
-                <div class="wrapper_column wrapper_col-4">
+                <div data-aos = "fade-up" data-aos-duration = "1500" class="wrapper_column wrapper_col-4">
                     <h2 class="section__title clients__title">
                         С кем мы сотрудничаем
                     </h2>
@@ -224,9 +260,9 @@
             </div>
         </div>
     </section>
-    <section class="section contact">
+    <section id="contact" class="section contact">
         <div class="wrapper">
-            <div class="contact__wrapper">
+            <div data-aos = "fade-up" data-aos-duration = "1500" class="contact__wrapper">
                 <div class="wrapper_row">
                     <div class="wrapper_column wrapper_col-3">
                         <h2 class="section__title contact__title">
