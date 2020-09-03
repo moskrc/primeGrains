@@ -1,19 +1,19 @@
 .margin {
-  //&-left {
-  //  margin-left: 9rem;
-  //  @media screen and (max-width: 1440px) {
-  //    margin-left: 6rem;
-  //  }
-  //  @media screen and (max-width: 1200px) {
-  //    margin-left: 4rem;
-  //  }
-  //  @media screen and (max-width: 768px) {
-  //    margin-left: 4rem;
-  //  }
-  //  @media screen and (max-width: 576px) {
-  //    margin-left: 2rem;
-  //  }
-  //}
+  &_left {
+    margin-left: 6rem;
+    @media screen and (max-width: 1440px) {
+
+    }
+    @media screen and (max-width: 1200px) {
+
+    }
+    @media screen and (max-width: 768px) {
+      margin-left: 0;
+    }
+    @media screen and (max-width: 576px) {
+
+    }
+  }
 
   //&-right {
   //  margin-right: 0rem;

@@ -54,7 +54,7 @@
                     <h3 class="section__subtitle about__subtitle">
                         Изготавливаем качественный инструмент для отбора проб зерна
                     </h3>
-                    <p class="section__text margin_top">
+                    <p class="section__text">
                         Пробоотборники просты в использовании и обслуживании. Имеют малый вес и прочную конструкцию. Являются универсальным и недорогим средством отбора проб зерна.
                     </p>
                 </div>
@@ -117,8 +117,19 @@
                         </ol>
                     </div>
                 </div>
-                <div class="wrapper_row">
-
+                <div class="wrapper_column">
+                    <span class="list__title">Технические данные</span>
+                    <div class="details">
+                        <div class="details__row details__row_head">
+                            <div class="details__head_item">Модель</div>
+                            <div class="details__head_item">Длина</div>
+                            <div class="details__head_item">Глубина отбора пробы</div>
+                            <div class="details__head_item">Диаметр</div>
+                            <div class="details__head_item">Диаметр внутренней полости</div>
+                            <div class="details__head_item">Кол.отверстий отбора</div>
+                        </div>
+                        <div class="details__row"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,17 +137,43 @@
     <section class="section order">
         <div class="wrapper">
             <div class="order__wrapper">
-                <div class="wrapper_column wrapper_col-3">
-                    <h2 class="section__title order__title">
-                        Сделать заказ
-                    </h2>
-                    <h3 class="section__subtitle order__subtitle">
-                        Работаем со всеми регионами России
-                    </h3>
-                    <img src="../../assets/img/order.png" alt="products" class="order__img margin_top">
-                </div>
-                <div class="wrapper_column wrapper_col-3">
-
+                <div class="wrapper_row">
+                    <div class="wrapper_column wrapper_col-3">
+                        <h2 class="section__title order__title">
+                            Сделать заказ
+                        </h2>
+                        <h3 class="section__subtitle order__subtitle">
+                            Работаем со всеми регионами России
+                        </h3>
+                        <p class="section__text order__text">
+                            Вы так же можете сделать заказ  по электронной почте <span class="section__text_decor">admin@mail.com</span> или позвонить по телефону
+                            <span class="section__text_decor">+7 906 680 05 44</span>
+                        </p>
+                        <img src="../../assets/img/order.png" alt="products" class="order__img margin_top">
+                    </div>
+                    <div class="wrapper_column wrapper_col-3 margin_left margin_top">
+                        <form name="form" class="form">
+                            <div class="form__input-container">
+                                <label class="form__label" for="name">Ваше имя*</label>
+                                <input class="form__item" required placeholder="Ваше имя" name="name" type="text">
+                                <label class="form__label" for="phone">Ваш телефон*</label>
+                                <input class="form__item" required placeholder="Ваш телефон" name="phone" type="tel">
+                                <label class="form__label" for="email">Ваш e-mail</label>
+                                <input class="form__item" required placeholder="Ваш e-mail" name="email" type="email">
+                                <label class="form__label" for="model">Выберите модель*</label>
+                                <select class="form__item form__item_model" name="model">
+                                    <option class="form__item" value="PG361">PG361</option>
+                                    <option value="PG362">PG362</option>
+                                    <option value="PG363">PG363</option>
+                                    <option value="PG364">PG364</option>
+                                    <option value="PG365">PG365</option>
+                                </select>
+                                <label class="form__label" for="count">Укажите количество*</label>
+                                <input class="form__item" required placeholder="1" name="count" type="text">
+                                <button class="btn order__btn margin_top" type="submit">заказать</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

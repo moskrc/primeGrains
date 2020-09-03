@@ -27,6 +27,14 @@
         border: 0;
         width: 100%;
     }
+    &__label {
+        font-family: inherit;
+        box-sizing: border-box;
+        margin-bottom: 0.75rem;
+        margin-top: 0.5rem;
+        font-size: 0.875rem;
+        color: $color-base;
+    }
     &__item {
         font-family: inherit;
         box-sizing: border-box;
@@ -37,12 +45,11 @@
         font-size: 1.25rem;
         padding:0.75rem;
         @media screen and (max-width: 768px) {
-            margin-top: 0.75rem;
+            //margin-top: 0.75rem;
             font-size: 1rem;
         }
         @media screen and (max-width: 576px) {
             font-size: 1rem;
-            padding:0.75rem;
         }
         &_message {
             height: 10rem;
@@ -62,15 +69,20 @@
         }
     }
 }
-
-input, textarea {
+select {
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #E5DCC3;
+    background-position-x: 97%;
+    appearance: none;
+    color: $color-lightBrown;
+}
+input, textarea, select, option {
     outline: none;
     &:focus {
         outline: none;
     }
     &::placeholder {
         font-family: inherit;
-        color: $color-base;
+        color: $color-lightBrown;
         font-size: 1.25rem;
         @media screen and (max-width: 768px) {
             font-size: 1rem;
