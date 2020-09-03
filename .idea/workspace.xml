@@ -38,13 +38,7 @@
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/images/design2.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../_DDD Vue/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/base/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/base/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/oldheader/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/navbar/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contract24" beforeDir="false" afterPath="$PROJECT_DIR$/../../contract24" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ddd-vue" beforeDir="false" />
@@ -106,7 +100,7 @@
       <workItem from="1598935296348" duration="510000" />
       <workItem from="1598936592373" duration="525000" />
       <workItem from="1599018918350" duration="1318000" />
-      <workItem from="1599020957288" duration="55171000" />
+      <workItem from="1599020957288" duration="60136000" />
     </task>
     <servers />
   </component>

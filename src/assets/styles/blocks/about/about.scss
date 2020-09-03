@@ -10,21 +10,17 @@
 
 .details {
     display: grid;
+    //grid-auto-flow: row;
     //grid-auto-flow: column;
-    grid-template-columns: repeat(6,auto);
-    grid-template-rows: repeat(3,auto);
-    grid-template-areas:
-            "header header header header header header"
-            "row-w row-w row-w row-w row-w row-w row-w"
-            "row-g row-g row-g row-g row-g row-g row-g";
-            //"row-w row-w row-w row-w row-w row-w row-w"
-            //"row-g row-g row-g row-g row-g row-g row-g";
-    //"r1-c1 r1-c2 r1-c3 r1-c4 r1-c5 r1-c6"
-    //"r2-c1 r2-c2 r2-c3 r2-c4 r2-c5 r2-c6"
-    //"r3-c1 r3-c2 r3-c3 r3-c4 r3-c5 r3-c6"
-    //"r3-c1 r3-c2 r3-c3 r3-c4 r3-c5 r3-c6"
-
-    &__row {
+    //grid-template-columns: repeat(6,auto);
+    //grid-template-rows: repeat(3,auto);
+  grid-template-columns: repeat(6,  1fr);
+    @media screen and (max-width: 992px) {
+      grid-template-columns:none;
+      grid-auto-flow: column;
+      grid-template-rows: repeat(6, 1fr);
+    }
+  &__row {
        font-size: 1rem;
         padding: 1.5rem;
         @media screen and (max-width: 992px) {
@@ -43,17 +39,29 @@
             padding: 0.125rem;
         }
         &_header {
-            //grid-area: header;
+          //grid-area: header;
+
             background-color: $color-lightGold;
         }
         &_w {
-            background-color: $color-white;
+          //grid-area: row-w;
+
+            //background-color: $color-white;
         }
         &_g {
-            grid-area: row-g;
-            background-color: $color-grey;
+          //grid-area: row-g;
+
+            //background-color: $color-grey;
         }
     }
 }
 
-
+.hh {
+  grid-area: header;
+}
+.ww {
+  grid-area: row-w;
+}
+.rr {
+  grid-area: row-g;
+}
