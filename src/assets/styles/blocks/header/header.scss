@@ -14,10 +14,7 @@
     &__wrapper {
         display: flex;
         align-items: center;
-        //padding: 12rem 9rem;
-        @media screen and (max-width: 1200px) {
-            padding: 10rem 4rem;
-        }
+        padding: 10rem 4rem;
         @media screen and (max-width: 992px) {
             padding: 8rem 2rem;
         }
@@ -98,7 +95,6 @@
         &:hover {
             color: $color-gold;
             transition: opacity .4s;
-            //opacity: .7;
         }
     }
 }

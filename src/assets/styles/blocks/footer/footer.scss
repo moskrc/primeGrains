@@ -1,89 +1,43 @@
 .footer {
     display: flex;
     margin: 0 auto;
-    background-color: $color-blue;
-    color: $color-white;
     padding: 2rem 9rem;
+    background-color: $color-darkBrown;
     @media screen and (max-width: 1200px) {
         padding: 3rem 4rem 2rem;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
         padding: 2rem 2rem 1.5rem;
     }
     @media screen and (max-width: 440px) {
         padding: 1rem 1rem 1.5rem;
     }
-
     &__wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        /*align-items: center;*/
+        align-items: center;
     }
-    &__column {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
+    &_logo {
+        width: 8rem;
         @media screen and (max-width: 992px) {
-            width: 50%;
+            width: 6.5rem;
         }
-        @media screen and (max-width: 768px) {
-            width: 100%;
-            margin-top: 4rem;
-        }
-        @media screen and (max-width: 576px) {
-            margin-top: 3rem;
-        }
-        &_hidden {
-            display: flex;
-            flex-direction: column;
-            width: 40%;
-            @media screen and (max-width: 992px) {
-                width: 50%;
-            }
-            @media screen and (max-width: 768px) {
-                display: none;
-            }
-
-        }
-    }
-    &__row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 4rem;
-        @media screen and (max-width: 768px) {
-            margin-top: 0rem;
-            flex-direction: column;
-        }
-    }
-    &_text {
-        color: $color-white;
-        font-weight: 100;
-        font-style:  normal;
-        font-size: 1.25rem;
         @media screen and (max-width: 440px) {
-            font-size: 1rem;
+            width: 5rem;
         }
-    }
-    &__menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
 }
 .copyright {
     margin: 0;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-}
-
-.text-decor {
-    color: $color-yellow;
+    color: $color-lightGold;
     font-weight: normal;
-    text-decoration: none;
-    margin-top: 1rem;
-    letter-spacing: 0.075rem;
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    @media screen and (max-width: 768px) {
+        font-size: 0.75rem;
+    }
 }
 
 
