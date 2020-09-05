@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c674a613-2a70-45ea-b0e9-f1698167870f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/form/form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/hamburger/hamburger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/link/link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/logo/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/components/table/table.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DDD Vue/.idea/DDD Vue.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DDD Vue/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DDD Vue/.idea/modules.xml" beforeDir="false" />
@@ -43,20 +38,35 @@
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/images/design2.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../_DDD Vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../_DDD Vue/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/about/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/base/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/base/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/clients/clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/clients/clients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/color/color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/color/color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/contact/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/navbar/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/optional/optional.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/optional/optional.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/order/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/order/order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendor/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/vendor/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Roman.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/HelveticaNeueCyr-Roman.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/agriculture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/animals.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/beer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flour.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/grains.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/main_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/trade.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.2c6bf085e6ea240c186e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/vendors~main.2c6bf085e6ea240c186e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/styles/main.8ccd74f3ed287f67e147.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/styles/vendors~main.980bfa54b50911c8e363.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/table/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/table/table.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contract24" beforeDir="false" afterPath="$PROJECT_DIR$/../../contract24" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ddd-vue" beforeDir="false" />
@@ -130,7 +140,7 @@
       <workItem from="1598936592373" duration="525000" />
       <workItem from="1599018918350" duration="1318000" />
       <workItem from="1599020957288" duration="60220000" />
-      <workItem from="1599285418228" duration="11252000" />
+      <workItem from="1599285418228" duration="12420000" />
     </task>
     <servers />
   </component>
